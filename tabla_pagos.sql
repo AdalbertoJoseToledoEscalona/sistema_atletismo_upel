@@ -1,0 +1,13 @@
+CREATE TABLE "BD2014"."PAGOS"
+  (
+    "CI"         VARCHAR2(20 BYTE),
+    "TIPO"       VARCHAR2(20 BYTE),
+    "MONTO"      VARCHAR2(20 BYTE),
+    "REFERENCIA" VARCHAR2(20 BYTE)
+  ) TABLESPACE "USERS";
+
+  INSERT INTO PAGOS VALUES ('1', '1', '1', '1');
+  
+  COMMIT;
+  
+  

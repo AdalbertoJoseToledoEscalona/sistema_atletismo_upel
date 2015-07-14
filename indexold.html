@@ -1,0 +1,199 @@
+<html>
+    <head>
+		<title>PROYECTO DE BASES DE DATOS </title>
+		
+		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+		
+		<link href="css/styler.css" rel="stylesheet" type="text/css" />
+		<script type="text/javascript" src="js/jquery.js"></script>
+		<script type="text/javascript" src="js/interface.js"></script>
+		
+		
+		<link rel="stylesheet" type="text/css" href="ddlevelsfiles/ddlevelsmenu-base.css" />
+		<link rel="stylesheet" type="text/css" href="ddlevelsfiles/ddlevelsmenu-topbar.css" />
+		<link rel="stylesheet" type="text/css" href="ddlevelsfiles/ddlevelsmenu-sidebar.css" />		
+		<script type="text/javascript" src="ddlevelsfiles/ddlevelsmenu.js"></script>
+		
+		
+    </head>
+	
+    <body>
+
+	<!-- /*==================== Encabezado Principal =======================*/ --> 
+		<table align="center" border="0" width="100%" >
+			<tr align="left">
+				<td width="125">
+					<img border="0" src="images/logo.jpg" width="75" height="75">
+				</td>
+				<td width="500">
+					<p>SISTEMA DE INFORMACIÓN CON UNA BASE DE DATOS</p>
+					<p>
+					* Ambito Educativo - Gestión de una Académia *</p>
+				</td> 
+				<td width="125">&nbsp;</td>
+			</tr>
+			<tr>
+				<td  width="0" colspan="3" style="background-color:#7C94B6;">
+				</td>
+			</tr>
+		</table>
+		<!-- /*=================================================================*/ --> 	
+<div id="ddtopmenubar" class="mattblackmenu">
+	<ul>
+		<li><a href="http://www.dynamicdrive.com">Home</a></li>
+		<li><a href="http://www.dynamicdrive.com/new.htm" rel="ddsubmenu1">Entrenadores</a></li>
+		<li><a href="http://www.dynamicdrive.com/style/" rel="ddsubmenu2">Atletas</a></li>
+		<li><a href="http://www.dynamicdrive.com/forums/">Forums</a></li>
+		<li><a href="http://tools.dynamicdrive.com/" rel="ddsubmenu3">Disiplinas</a></li>
+	</ul>
+</div>
+
+<script type="text/javascript">
+ddlevelsmenu.setup("ddtopmenubar", "topbar") //ddlevelsmenu.setup("mainmenuid", "topbar|sidebar")
+</script>
+
+<!--HTML for the Drop Down Menus associated with Side Menu Bar-->
+<!--They should be inserted OUTSIDE any element other than the BODY tag itself-->
+<!--A good location would be the end of the page (right above "</BODY>")-->
+
+
+<!--Side Drop Down Menu 1 HTML-->
+
+<ul id="ddsubmenu1" class="ddsubmenustyle blackwhite">
+<li><a href="consultar_profesor.php">Ver Entrenadores</a></li>
+<li><a href="#">Item 2a</a></li>
+<li><a href="#">Item Folder 3a</a>
+		  <ul>
+		  <li><a href="#">Sub Item 3.1a</a></li>
+		  <li><a href="#">Sub Item 3.2a</a></li>
+		  <li><a href="#">Sub Item 3.3a</a></li>
+				<ul>
+				<li><a href="central.htm">Mi Pagina</a></li>
+				<li><a href="#">Sub Item 3.3.2a</a></li>
+				 </ul>
+		  <li><a href="#">Sub Item 3.4a</a></li>
+		  <li><a href="#">Sub Item 3.5a</a></li>
+		  <li><a href="#">Sub Item 3.6a</a></li>
+		  <li><a href="#">Sub Item 3.7a</a></li>
+		  </ul>
+</li>
+<li><a href="#">Item 4a</a></li>
+<li><a href="#">Item Folder 5a</a>
+			  <ul>
+			  <li><a href="#">Sub Item 5.1a</a></li>
+			  <li><a href="#">Item Folder 5.2a</a>
+						<ul>
+						<li><a href="#">Sub Item 5.2.1a</a></li>
+						<li><a href="#">Sub Item 5.2.2a</a></li>
+						<li><a href="#">Sub Item 5.2.3a</a></li>
+						<li><a href="#">Sub Item 5.2.4a</a></li>
+						</ul>
+			  </li>
+				</ul>
+</li>
+<li><a href="#">Item 6a</a></li>
+<li><a href="#">Item 7a</a></li>
+<li><a href="#">Item 8a</a></li>
+</ul>
+
+<!--Side Drop Down Menu 2 HTML-->
+
+<ul id="ddsubmenu2" class="ddsubmenustyle blackwhite">
+<li><a href="consultar_alumnos.php">Ver Atletas</a></li>
+<li><a href="#">Item 2b</a></li>
+<li><a href="#">Item Folder 3b</a>
+  <ul>
+  <li><a href="#">Sub Item 3.1b</a></li>
+  <li><a href="#">Sub Item 3.2b</a></li>
+  <li><a href="#">Sub Item 3.3b</a></li>
+  <li><a href="#">Sub Item 3.4b</a></li>
+  <li><a href="#">Sub Item 3.5b</a></li>
+  </ul>
+</li>
+<li><a href="#">Item 4b</a></li>
+<li><a href="#">Item Folder 5b</a>
+  <ul>
+  <li><a href="#">Sub Item 5.1b</a></li>
+  <li><a href="#">Sub Item 5.2b</a></li>
+  <li><a href="#">Item Folder 5.3b</a>
+    <ul>
+    <li><a href="#">Sub Item 5.3.1b</a></li>
+    <li><a href="#">Sub Item 5.3.2b</a></li>
+    <li><a href="http://www.dynamicdrive.com/dynamicindex1/ddlevelsmenu/">Sub Item 5.3.3b</a></li>
+    </ul>
+  </li>
+	</ul>
+</li>
+<li><a href="#">Item 6b</a></li>
+</ul>
+
+
+<!--Side Drop Down Menu 3 HTML-->
+
+<ul id="ddsubmenu3" class="ddsubmenustyle blackwhite">
+<li><a href="http://tools.dynamicdrive.com/imageoptimizer/">Image Optimizer</a></li>
+<li><a href="http://tools.dynamicdrive.com/favicon/">FavIcon Generator</a></li>
+<li><a href="http://www.dynamicdrive.com/emailriddler/">Email Riddler</a></li>
+<li><a href="http://tools.dynamicdrive.com/password/">htaccess Password</a></li>
+<li><a href="http://tools.dynamicdrive.com/userban/">htaccess Banning</a></li>
+</ul>
+
+			<center>
+			
+				<h2> ..:: APLICACIÓN WEB PROTOTIPO ::..</h1>
+				<h2> ..:: Menú Principal ::..</h2>
+					<a href="consultar_alumnos.php">Consulta de Alumnos</a><br/>
+					<a href="nuevo_alumno.php">Ingresar Nuevo Alumno</a><br/>
+					<a href="#">Modificar/Actualizar Datos de Alumnos</a><br/>
+				<br>
+					<a href="consultar_profesor.php">Consultar Profesor</a><br/>
+					<a href="#">Ingresar Nuevo Profesor</a><br/>
+					<a href="#">Modificar/Actualizar Datos de Profesores</a><br/>
+				<br>
+					<a href="formulario_de_pago.html">Registro de Pago de Alumno</a><br/>
+					<a href="ver_pagos_realizados.php">Ver Pagos Realizados</a><br/>
+				<br>
+					<a href="#">Otras Opciones</a><br/>
+			
+			</center>
+		
+		<!--bottom dock -->
+		<div class="dock" id="dock2">
+		  <div class="dock-container2">
+		  <a class="dock-item2" href="http://www.dynamicdrive.com/dynamicindex1/ddlevelsmenu/"><span>Home</span><img src="images/home.png" alt="home" /></a> 
+		  <a class="dock-item2" href="consultar_profesor.php"><span>Contact</span><img src="images/email.png" alt="contact" /></a> 
+		  <a class="dock-item2" href="#"><span>Portfolio</span><img src="images/portfolio.png" alt="portfolio" /></a> 
+		  <a class="dock-item2" href="#"><span>Music</span><img src="images/music.png" alt="music" /></a> 
+		  <a class="dock-item2" href="#"><span>Video</span><img src="images/video.png" alt="video" /></a> 
+		  <a class="dock-item2" href="ver_pagos_realizados.php"><span>History</span><img src="images/history.png" alt="history" /></a> 
+		  <a class="dock-item2" href="#"><span>Calendar</span><img src="images/calendar.png" alt="calendar" /></a> 
+		  <a class="dock-item2" href="#"><span>Links</span><img src="images/link.png" alt="links" /></a> 
+		  <a class="dock-item2" href="#"><span>RSS</span><img src="images/rss.png" alt="rss" /></a> 
+		  <a class="dock-item2" href="formulario_de_pago.html"><span>RSS2</span><img src="images/rss2.png" alt="rss" /></a> 
+		  </div>
+		</div>
+
+		<!--dock menu JS options -->
+		<script type="text/javascript">			
+			$(document).ready(
+				function()
+				{
+					$('#dock2').Fisheye(
+						{
+							maxWidth: 60,
+							items: 'a',
+							itemsText: 'span',
+							container: '.dock-container2',
+							itemWidth: 40,
+							proximity: 80,
+							alignment : 'left',
+							valign: 'bottom',
+							halign : 'center'
+						}
+					)
+				}
+			);
+		</script>
+		
+    </body>	
+</html>
